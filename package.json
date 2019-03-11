@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.122",
+    "@types/three": "^0.93.26",
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.3333"
   },
