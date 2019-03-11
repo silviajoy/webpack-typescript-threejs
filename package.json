@@ -5,10 +5,15 @@
   "private": true,
   "dependencies": {
     "lodash": "^4.17.11",
+    "three": "^0.102.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/lodash": "^4.14.122",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
