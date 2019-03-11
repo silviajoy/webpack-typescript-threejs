@@ -1,0 +1,29 @@
+{
+  "name": "webpack-typescript-threejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^3.2.3",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/silviajoy/webpack-typescript-threejs.git"
+  },
+  "keywords": [
+    "webpack",
+    "threejs",
+    "typescript"
+  ],
+  "author": "silviajoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silviajoy/webpack-typescript-threejs/issues"
+  },
+  "homepage": "https://github.com/silviajoy/webpack-typescript-threejs#readme"
+}
