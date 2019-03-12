@@ -71,8 +71,15 @@ loader.load(
 /* CUBE TRANSFORM*/
 
 let geometry = new THREE.BoxGeometry(1,1,1);
-let material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+let material = new THREE.MeshBasicMaterial( { color: 0x00ff00, wireframe:true } );
 let box = new THREE.Mesh( geometry, material );
+
+//box.rotation.y = 45*Math.PI/180
+//box.scale.set(2,2,2);
+
+box.position.x = 2
+box.rotation.z = 45*Math.PI/180
+box.scale.set(2,2,2);
 
 scene.add( box );
 
